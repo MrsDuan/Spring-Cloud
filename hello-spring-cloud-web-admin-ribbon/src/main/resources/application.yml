@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: hello-spring-cloud-web-admin-ribbon
+
+server:
+  port: 8764
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+
