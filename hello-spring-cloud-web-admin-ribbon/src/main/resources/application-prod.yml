@@ -5,4 +5,3 @@ spring:
       name: web-admin-ribbon
       label: master
       profile: prod
-
