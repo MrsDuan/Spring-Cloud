@@ -10,7 +10,10 @@ spring:
           search-paths: respo
           username: root
           password: 12345678
-
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
 server:
   port: 8888
 
